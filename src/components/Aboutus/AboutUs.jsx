@@ -1,12 +1,10 @@
 import React from "react";
 
-
 const AboutUs = () => {
   return (
     <div className="bg-white AboutUs" id="AboutUs">
       <div className="max-w-7xl mx-auto px-4 py-6">
-       
-        <p className="text-base font-sans sm:text-lg md:text-xl lg:text-2xl py-6">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl py-6" style={{ fontFamily: 'Roboto, sans-serif' }}>
           SR Enterprises is a leading company specializing in the trading of
           materials such as scrap aluminum, iron, steel, plastics, and more. Our
           core business revolves around supplying these materials to clients
@@ -18,10 +16,10 @@ const AboutUs = () => {
           satisfaction, SR Enterprises has built a reputation for providing
           high-quality products and services in the trading industry.
         </p>
-        <h2 className="font-bold text-xl sm:text-2xl md:text-3xl">
+        <h2 className="font-bold text-xl sm:text-2xl md:text-3xl" style={{ fontFamily: 'Roboto, sans-serif' }}>
           Our Vision:
         </h2>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl" style={{ fontFamily: 'Roboto, sans-serif' }}>
           At SR-Enterprises, our mission is to provide industry-leading
           solutions that cater to the unique needs of our clients, empowering
           them to thrive in a competitive marketplace. We aim to be the trusted
