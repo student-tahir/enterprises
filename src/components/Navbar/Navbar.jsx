@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll'; // Import Link for smooth scroll
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { FaBars, FaTimes } from 'react-icons/fa'; // Correct icon imports
 import Logo from "../../assets/Logo.png"; // Logo path
 
@@ -25,16 +25,25 @@ const Navbar = () => {
       {/* Navbar Links and Icons */}
       <div className={`flex flex-col sm:flex-row sm:space-x-6 items-center sm:items-center sm:justify-end ${isMobile ? 'block' : 'hidden sm:flex'}`}>
         {/* Links */}
-        <Link to="Home" smooth={true} duration={500} className="text-white hover:text-gray-400 py-2 text-lg">Home</Link>
-        <Link to="Product" smooth={true} duration={500} className="text-white hover:text-gray-400 py-2 text-lg">Product</Link>
-        <Link to="AboutUs" smooth={true} duration={500} className="text-white hover:text-gray-400 py-2 text-lg">About Us</Link>
-        <Link to="Footer" smooth={true} duration={500} className="text-white hover:text-gray-400 py-2 text-lg">Contact</Link>
+        <Link to="/" className="text-white hover:text-gray-400 py-2 text-lg">Home</Link>
+        <Link to="/product" className="text-white hover:text-gray-400 py-2 text-lg">Product</Link>
+
+        {/* Route Link for About Us */}
+        <Link 
+          to="/aboutus" // Make sure this matches the route for your About Us page
+          className="text-white hover:text-gray-400 py-2 text-lg"
+        >
+          About Us
+        </Link>
+
+        <Link to="/footer" className="text-white hover:text-gray-400 py-2 text-lg">Contact</Link>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+
 
 
 
