@@ -13,8 +13,7 @@ const Footer = () => {
         {/* Footer Links */}
         <div className="footer-links mb-6 sm:mb-0">
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-8">
-            
-            <li><a href="/contact" className="hover:text-orange-400">Contact</a></li>
+          
             <li><a href="/privacy-policy" className="hover:text-orange-400">Privacy Policy</a></li>
             <li><a href="/terms-of-use" className="hover:text-orange-400">Terms of Use</a></li>
             <li><a href="/terms-of-use" className="hover:text-orange-400">GST no:- 10AKEPM1467D2ZP</a></li>

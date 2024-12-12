@@ -12,8 +12,8 @@ const Product = () => {
 
   return (
     <div className='Product bg-white pb-12' id='Product'>
-      <h1 className='font-serif text-4xl sm:text-6xl text-center text-brown-800 py-8 italic'>
-       Our Products
+      <h1 className='font-serif text-4xl sm:text-6xl text-center text-green-700 py-8'>
+        Our Products
       </h1>
 
       {/* Section 1 */}
@@ -26,14 +26,14 @@ const Product = () => {
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
           {/* Text Below Image */}
-          <p className="text-3xl  text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
+          <p className="text-2xl text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center pt-2 pb-1 font-bold">
             Aluminium
           </p>
         </div>
 
         {/* Text Below */}
-        <div className='flex flex-col gap-4 max-w-lg text-center sm:text-left'>
-          <p className='font-serif text-lg sm:text-xl text-gray-800'>
+        <div className='flex flex-col gap-0 max-w-lg text-center sm:text-left'>
+          <p className='font-serif text-lg sm:text-xl text-gray-800 '>
             We specialize in the trade of high-quality aluminium scraps, offering a sustainable solution for recycling and reuse in various industries. We focus on sustainability, offering cost-effective solutions to meet your needs.
           </p>
         </div>
@@ -49,10 +49,9 @@ const Product = () => {
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
          {/* Text Below Image */}
-         <p className="text-3xl text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
-            iron
+         <p className="text-2xl text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center pt-2 pb-1 font-bold">
+            Iron
           </p>
-
         </div>
 
         {/* Text Below */}
@@ -73,10 +72,9 @@ const Product = () => {
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
          {/* Text Below Image */}
-         <p className="text-3xl text-blue-700  sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
+         <p className="text-2xl text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center pt-2 pb-1 font-bold">
             Plastic
           </p>
-
         </div>
 
         {/* Text Below */}
@@ -91,6 +89,8 @@ const Product = () => {
 };
 
 export default Product;
+
+
 
 
 
