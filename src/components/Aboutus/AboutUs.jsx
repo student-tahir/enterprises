@@ -19,7 +19,7 @@ const AboutUs = () => {
         <h2 className="font-bold text-xl sm:text-2xl md:text-3xl" style={{ fontFamily: 'Roboto, sans-serif' }}>
           Our Vision:
         </h2>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl" style={{ fontFamily: 'Roboto, sans-serif' }}>
+        <p className="text-base sm:text-lg md:text-xl text-gray-500 lg:text-2xl" style={{ fontFamily: 'Roboto, sans-serif' }}>
           At SR-Enterprises, our mission is to provide industry-leading
           solutions that cater to the unique needs of our clients, empowering
           them to thrive in a competitive marketplace. We aim to be the trusted
