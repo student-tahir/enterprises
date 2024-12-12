@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="bg-white AboutUs" id="AboutUs">
       <div className="max-w-7xl mx-auto px-4 py-6">
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl py-6" style={{ fontFamily: 'Roboto, sans-serif' }}>
+        <p className="text-base sm:text-lg md:text-xl text-gray-500 lg:text-2xl py-6" style={{ fontFamily: 'Roboto, sans-serif' }}>
           SR Enterprises is a leading company specializing in the trading of
           materials such as scrap aluminum, iron, steel, plastics, and more. Our
           core business revolves around supplying these materials to clients
