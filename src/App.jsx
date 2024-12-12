@@ -4,7 +4,8 @@ import Carousel from './components/Carousel/Carousel';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Aboutus from './components/Aboutus/AboutUs';
-import Product from './components/Product';
+import Product from './components/Product/Product';
+import Menu from './components/Menu/Menu';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Home />
       <Aboutus />
       <Product />
+      <Menu />
       <Footer />
     </>
   );
