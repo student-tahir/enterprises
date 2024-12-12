@@ -13,7 +13,7 @@ const Product = () => {
   return (
     <div className='Product bg-white pb-12' id='Product'>
       <h1 className='font-serif text-4xl sm:text-6xl text-center text-brown-800 py-8 italic'>
-        Product
+       Our Products
       </h1>
 
       {/* Section 1 */}
@@ -25,6 +25,10 @@ const Product = () => {
             alt="alum" 
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
+          {/* Text Below Image */}
+          <p className="text-3xl  text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
+            Aluminium
+          </p>
         </div>
 
         {/* Text Below */}
@@ -44,6 +48,11 @@ const Product = () => {
             alt="iron" 
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
+         {/* Text Below Image */}
+         <p className="text-3xl text-blue-700 sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
+            iron
+          </p>
+
         </div>
 
         {/* Text Below */}
@@ -63,12 +72,17 @@ const Product = () => {
             alt="plastic scrap" 
             className='w-full h-auto object-contain rounded-lg shadow-xl transition-transform duration-300 transform hover:scale-105' 
           />
+         {/* Text Below Image */}
+         <p className="text-3xl text-blue-700  sm:text-lg md:text-xl lg:text-2xl text-center py-4 font-bold">
+            Plastic
+          </p>
+
         </div>
 
         {/* Text Below */}
         <div className='flex flex-col gap-4 max-w-lg text-center sm:text-left'>
           <p className='font-family: Roboto, sans-serif text-lg sm:text-xl text-gray-800'>
-            In addition to metal scraps, we are also a trusted supplier of good-quality plastic scrap, providing a sustainable solution for businesses looking to reduce waste and improve their environmental footprint. Our plastic scrap is sourced from places and processed to meet specific material needs. Available in a range of grades, we deliver reliable and clean plastic scrap suitable for recycling and repurposing in a variety of applications.
+            In addition to metal scraps, we are also a trusted supplier of good-quality plastic scrap, providing a sustainable solution for businesses looking to reduce waste and improve their environmental footprint. Our plastic scrap is sourced from places and processed to meet specific material needs. 
           </p>
         </div>
       </div>
