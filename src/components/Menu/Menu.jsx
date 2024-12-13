@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 
 const AccordionMenu = () => {
   // Track which section is open, initially no section is open (set to null)
@@ -16,13 +16,13 @@ const AccordionMenu = () => {
   return (
     <div className="relative">
       {/* Accordion Menu */}
-      <div className="w-60 bg-gray-500 border border-gray-300 rounded-md shadow-lg z-10">
+      <div className="w-ful bg-gray-500 border border-gray-300 rounded-md shadow-lg z-10 mx-auto">
         <ul className="divide-y divide-gray-200">
           {/* Section 1 */}
           <li>
             <button
               onClick={() => handleToggle(0)}
-              className=" w-full text-left p-3 hover:bg-secondary font-medium"
+              className="w-full text-center p-3 hover:bg-secondary font-medium"
             >
               Contact
             </button>
@@ -34,7 +34,7 @@ const AccordionMenu = () => {
               }}
             >
               <p className="p-3 text-gray-800">
-                Here is some information about how to contact us. We are available via email, phone, and social media Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla culpa quae aliquam ullam suscipit quod molestias ducimus cumque velit? Culpa perferendis repellendus, repellat, saepe delectus consequuntur blanditiis nesciunt, vero iste iure provident voluptatum aspernatur.
+                Here is some information about how to contact us. We are available via email, phone, and social media. Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
           </li>
@@ -43,7 +43,7 @@ const AccordionMenu = () => {
           <li>
             <button
               onClick={() => handleToggle(1)}
-              className="w-full text-left p-3 hover:bg-secondary font-medium"
+              className="w-full text-center p-3 hover:bg-secondary font-medium"
             >
               About Us
             </button>
@@ -60,9 +60,6 @@ const AccordionMenu = () => {
             </div>
           </li>
 
-          {/* Section 3 */}
-        
-
           {/* Add more sections similarly */}
         </ul>
       </div>
@@ -71,5 +68,6 @@ const AccordionMenu = () => {
 };
 
 export default AccordionMenu;
+
 
 
