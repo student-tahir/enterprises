@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         {/* Logo and title */}
         <div className="flex items-center space-x-2">
-          <img src={Logo} alt="Logo" className="w-10 h-10" />
+          <img src={Logo} alt="Logo" className="w-10 h-10 rounded-3xl" />
           <h1 className="text-white text-2xl font-bold">SR-Enterprises</h1>
         </div>
 
