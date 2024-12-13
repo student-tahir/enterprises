@@ -13,9 +13,9 @@ const Home = () => {
       {/* Centered h1 with 3 lines */}
       <h1 className='font-serif text-3xl sm:text-5xl md:text-6xl text-center text-orange-400 py-8'>
         Trading Materials
-        <span className='block sm:inline p-2'>{/* Just to break into a new line if necessary */}</span>
+        <span className='block sm:inline p-1'>{/* Just to break into a new line if necessary */}</span>
             With a
-        <span className='block sm:inline p-2'>{/* Just to break into a new line if necessary */}</span>
+        <span className='block sm:inline p-1'>{/* Just to break into a new line if necessary */}</span>
             Passion
       </h1>
 
